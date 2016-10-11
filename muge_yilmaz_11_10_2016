@@ -1,0 +1,56 @@
+background(#F0FBF7);
+size (400,400);
+
+//black rect
+fill(#1A1414);
+rect(0,0,20,80);
+rect(20,160,120,60);
+rect(240,160,100,140);
+rect(70,380,170,30);
+//rect(340,80,30,220);
+
+//red rect
+fill(#EA4A3A);
+rect(70,0,70,80);
+rect(340,80,4,220); //bu neden görünmüyor acaba
+rect(70,380,170,20);
+
+//yellow rect
+fill(#FDEE01);
+rect(140,40,100,120);
+rect(340,0,60,80);
+rect(240,300,100,80);
+
+//blue rect
+fill(#5E4DBD);
+rect(240,40,100,40);
+rect(20,80,120,80);
+rect(140,300,100,80);
+
+//light blue rect
+fill(#D8DCE6);
+rect(240,0,100,40);
+
+
+
+//vertical column//
+
+fill(#6B5152);
+rect(20,0,4,220);
+rect(70,0,4,80);
+rect(140,0,4,380);
+rect(240,0,4,400);
+rect(340,0,4,400);
+rect(380,80,4,220);
+rect(70,220,4,180);
+
+
+//horizontal column
+fill(#6B5152);
+rect(140,40,200,4);
+rect(0,80,400,4);
+rect(20,160,220,4);
+rect(0,220,244,4);
+rect(140,300,260,4);
+rect(0,340,74,4);
+rect(70,380,270,4);
